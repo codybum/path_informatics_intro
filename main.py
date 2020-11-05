@@ -48,8 +48,7 @@ def read_directory_of_files(dir_path):
         # Control delimiters, rows, column names with read_csv
         # missing command to read a csv file into a Pandas dataframe named current_data
         # current_data = [some missing code]
-        current_data = pd.read_csv(file_name_path)
-
+        
         # Preview the first 5 lines of the loaded data
         print(current_data.head())
 
