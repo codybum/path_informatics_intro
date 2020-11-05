@@ -59,6 +59,12 @@ def read_directory_of_files(dir_path):
 
     return data
 
+def summarize_columns(data):
+
+    #Using Pandas or other tools calculate the mean value of each column
+    #summarized_columns = [some missing code]
+    return summarized_columns
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
 
@@ -70,3 +76,5 @@ if __name__ == '__main__':
     dir_path = 'cell_data'
     #read all files into memory
     data = read_directory_of_files(dir_path)
+
+    print(summarize_columns(data))
