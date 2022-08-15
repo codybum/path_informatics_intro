@@ -69,6 +69,7 @@ def summarize_columns(data):
 if __name__ == '__main__':
 
     compressed_data_file_path = 'cell_data.tar.gz'
+    
 
     #1 uncompress the source data
     #dir_path = uncompress_data(compressed_data_file_path)
